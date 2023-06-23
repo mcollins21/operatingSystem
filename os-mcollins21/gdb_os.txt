@@ -1,0 +1,6 @@
+set architecture i386
+file hello
+target remote localhost:1234
+layout src
+b main
+c
