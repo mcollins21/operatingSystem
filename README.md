@@ -1,19 +1,21 @@
 # operatingsystem
 
-Terminal Driver
-  Printing Works
-  Newline Works
+## Project Specifications
 
-Memory Management
-  Page frame allocator returns physical addresses
-  map_pages() creates virtual -> physical mappings
+### Terminal Driver
+- Printing Works
+- Newline Works
 
-FAT Driver
-  Can find files in the RDE listing of the root
-  Can read data from files into memory
+### Memory Management
+- Page frame allocator returns physical addresses
+- map_pages() creates virtual -> physical mappings
 
-ELF Loader
-  Parses ELF header
-  Parses Program Headers
-  Maps memory for ELF headers & copies data into place
-  Jumps to ELF entry point
+### FAT Driver
+- Can find files in the RDE listing of the root
+- Can read data from files into memory
+
+### ELF Loader
+- Parses ELF header
+- Parses Program Headers
+- Maps memory for ELF headers & copies data into place
+- Jumps to ELF entry point
